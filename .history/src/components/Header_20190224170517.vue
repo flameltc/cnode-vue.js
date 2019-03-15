@@ -1,0 +1,47 @@
+<template>
+  <header class="header">
+    <div class="headerBox">
+      <i class="headLogoMenu iconfont icon-fl1" v-if="icon" @click="showMenuSlide"></i>
+      <i class="headLogoBack iconfont iconBack" v-if="!icon" @click="goBack"></i>
+      <img src="../../static/image/icon/cnodejs_light.svg" class="logoImg">
+      <i @click="showMsg" v-show="ak" class="icon-msg"></i>
+      <span v-show="ak" class="msg-count">{{msgCount}}</span>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'header',
+  methods: {
+    showMuneSlide() {
+      this.$store.commit('showMenuSlide', true);
+    },
+    showMsg() {
+      this.$store.commit('showMsg', true);
+    },
+  },
+  computed: {
+    ak() {
+      return this.$store.state.ak;
+    }
+  },
+  created() {
+    if (!this.ak) {
+      return;
+    }
+  }
+}
+</script>
+
+<style lang="stylus" scoped>
+  .header
+    position relative
+    display flex
+    flex-direction column
+    width 100%
+    height 70px
+    background-color #dadada
+    justify-content 
+</style>
+

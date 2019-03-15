@@ -1,0 +1,5 @@
+<template>
+  <translation>
+    
+  </translation>
+</template>
