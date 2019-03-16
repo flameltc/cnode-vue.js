@@ -14,7 +14,7 @@ module.exports = {
       '/api/v1/**': {
         target: 'https://cnodejs.org',// 接口域名
         secure: false,
-        changeOri
+        changeOrigin: false,
       }
     },
 
@@ -62,7 +62,7 @@ module.exports = {
      * Source Maps
      */
 
-    productionSourceMap: true,
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

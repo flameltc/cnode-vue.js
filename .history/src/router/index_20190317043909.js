@@ -8,7 +8,7 @@ import UserInfo from '@/components/UserInfo'
 Vue.use(Router)
 
 export default new Router({
-  base: '/CNode/',
+  base: '/CNode/'
   routes: [
     {
       path: '/',
