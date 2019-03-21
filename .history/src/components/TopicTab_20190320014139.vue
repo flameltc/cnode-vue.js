@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .topic-tab {
-  background: #ffffff;
+  background: #ff0000;
   height: 35px;
   ul {
     height: 100%;
@@ -76,7 +76,7 @@ export default {
         }
       }
       a {
-        color: #000000;
+        color: #fff;
       }
     }
   }

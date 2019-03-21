@@ -76,7 +76,7 @@ export default {
         }
       }
       a {
-        color: #000000;
+        color: #fff;
       }
     }
   }

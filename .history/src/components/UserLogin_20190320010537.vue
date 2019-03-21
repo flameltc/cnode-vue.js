@@ -6,7 +6,7 @@
         <mt-button type="primary" size="large" @click="doLogin">登录</mt-button>
         <mt-button type="primary" size="large" plain @click="hideUserLogin">取消</mt-button>
         <div class="copyright">
-          <a href="https://github.com/flameltc/cnode-vue.js" target="_blank">By l</a>
+          <a href="" target="_blank">By l</a>
         </div>
       </div>
     </div>

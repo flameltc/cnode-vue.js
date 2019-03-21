@@ -147,6 +147,9 @@ export default {
       text-align: left;
       > div {
         margin-bottom: 1px;
+         {
+          font-weight: 1000px;
+        }
         .user {
           img {
             margin-right: 5px;

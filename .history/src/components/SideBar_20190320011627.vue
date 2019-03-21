@@ -135,8 +135,9 @@ export default {
 .side-bar {
   @include absolute-panel;
   display: flex;
+  borderrl
   .menu {
-    width: 175px;
+    width: 250px;
     background: $primary-bg;
     box-shadow: 0 0 15px #808080;
     display: flex;
@@ -146,7 +147,7 @@ export default {
     .main-block {
       text-align: left;
       > div {
-        margin-bottom: 1px;
+        margin-bottom: 5px;
         .user {
           img {
             margin-right: 5px;
@@ -156,12 +157,12 @@ export default {
       }
     }
     .exit-block {
-      height: 14px;
+      color: #f56c6c;
     }
   }
   .mask {
     flex: 1;
-    height: 100%;
+    height: 40px;
   }
 }
 </style>

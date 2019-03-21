@@ -146,7 +146,7 @@ export default {
     .main-block {
       text-align: left;
       > div {
-        margin-bottom: 1px;
+        margin-bottom: 5px;
         .user {
           img {
             margin-right: 5px;

@@ -58,6 +58,7 @@ export default {
       justify-content: center;
       align-items: center;
       position: relative;
+      color: #000000;
       &::after {
         content: "";
         width: 100%;
@@ -76,7 +77,7 @@ export default {
         }
       }
       a {
-        color: #000000;
+        color: #fff;
       }
     }
   }

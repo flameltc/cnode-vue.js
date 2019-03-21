@@ -147,6 +147,9 @@ export default {
       text-align: left;
       > div {
         margin-bottom: 1px;
+        &.hover {
+          font-weight: 500px;
+        }
         .user {
           img {
             margin-right: 5px;

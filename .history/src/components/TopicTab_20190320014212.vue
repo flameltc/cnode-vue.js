@@ -49,6 +49,7 @@ export default {
 .topic-tab {
   background: #ffffff;
   height: 35px;
+  color: #000000;
   ul {
     height: 100%;
     display: flex;
@@ -76,7 +77,7 @@ export default {
         }
       }
       a {
-        color: #000000;
+        color: #fff;
       }
     }
   }
