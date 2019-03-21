@@ -1,5 +1,0 @@
-<template>
-  <transition>
-  
-  </transition>
-</template>

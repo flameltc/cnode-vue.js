@@ -1,3 +1,0 @@
-<template>
-  <header class=""
-</template>

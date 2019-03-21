@@ -1,6 +1,0 @@
-// 公共
-export const COM_ITEM_TAB = 'COM_ITEM_TAB'
-export const COM_INIT_INDEX = 'COM_INIT_INDEX'
-export const COM_NAV_STATUS = 'COM_NAV_STATUS'
-export const COM_HEADER_STATUS = 'COM_HEADER_STATUS'
-export const COM_LOADING_STATUS = 'COM_LOADING_STATUS'
